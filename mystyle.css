@@ -1,0 +1,90 @@
+body {
+	margin: 0px;
+	font-size: 133%;
+	font-family: verdana;
+	color: #31363A;
+}
+
+
+#banner {
+	background-color: rgba(99,186,169,1);
+	float: left;
+	margin: 0px;
+	height: 80px;
+	width: 100%;
+}
+
+
+#logo {
+	display: block;
+	float:left;
+}
+
+
+#menu {
+	float: left;
+	height: 80px;
+}
+
+
+#menu li {
+	display: inline;
+	margin:80px;
+}
+
+
+#content {
+	margin-left:100px;
+	width: 800px;
+	clear: both;
+}
+
+
+p {
+	background-color: #EBE5C5;
+	padding:15px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+h1 {
+	float: left;
+	background-color: #EBE5C5;
+	padding: 5px;
+}
+
+#bg {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	
+	/* Preserve aspet ratio */
+	min-width: 100%;
+	min-height: 100%;
+
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	z-index: -1;
+}
+
+
+#para1{
+	background:rgba(178,216,191,1);
+	margin-left: 150px;
+	font-size: 100%;
+}
+
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */  
+}
+
